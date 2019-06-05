@@ -24,8 +24,12 @@ require './app.rb'
 require 'capybara'
 require 'rspec'
 require './spec/features/web_helpers'
+require './spec/test_db_setup'
+require './database_connection_setup.rb'
 
 Capybara.app = MessageBoard
+
+
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter.new([
   SimpleCov::Formatter::Console,
