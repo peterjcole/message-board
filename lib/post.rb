@@ -1,4 +1,4 @@
-require 'database_connection'
+require_relative './database_connection'
 
 class Post
   attr_reader :id, :title

@@ -1,0 +1,7 @@
+<h1>Message Board</h1>
+<%=
+@posts.map do |post|
+  "<div class=\"post\">
+  <h2> #{post.title} </h2>"
+end.join("")
+%>
