@@ -30,12 +30,12 @@
         1,
         1,
         1,
-        0,
+        1,
         null,
         1,
         1,
         1,
-        0,
+        1,
         0,
         0,
         null,
@@ -60,20 +60,29 @@
         null,
         1,
         1,
+        1,
+        2,
         null,
         null,
         null
       ],
       "/Users/student/peterjcole-makers/week-6-database/message-board/lib/post.rb": [
         1,
+        null,
         1,
         1,
-        2,
-        2,
+        1,
+        14,
+        14,
+        null,
+        null,
+        1,
+        4,
+        16,
         null,
         null
       ]
     },
-    "timestamp": 1559725423
+    "timestamp": 1559736601
   }
 }
